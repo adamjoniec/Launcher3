@@ -55,8 +55,8 @@ public abstract class RevealOutlineAnimation extends ViewOutlineProvider {
 
             public void onAnimationEnd(Animator animation) {
                 if (!mWasCanceled) {
-                    revealView.setOutlineProvider(ViewOutlineProvider.BACKGROUND);
-                    revealView.setClipToOutline(false);
+                    //revealView.setOutlineProvider(ViewOutlineProvider.BACKGROUND);
+                    //revealView.setClipToOutline(false);
                     if (shouldRemoveElevationDuringAnimation()) {
                         revealView.setTranslationZ(0);
                     }
